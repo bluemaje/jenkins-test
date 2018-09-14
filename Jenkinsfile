@@ -19,7 +19,7 @@ node {
       sh "echo publish"
     }
     stage('deploy') {
-      sh "sh deploy"
+      sh "echo deploy"
     }
   } finally {
     stage('cleanup') {
